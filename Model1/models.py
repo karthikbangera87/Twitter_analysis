@@ -6,8 +6,8 @@ class tweets(Document):
 	
 	UserID = StringField()
 	Type = StringField()
-    origin = StringField()
-    text = StringField()
+    	origin = StringField()
+    	text = StringField()
 	URL = StringField()
 	ID = StringField()
 	time = StringField()
@@ -19,14 +19,14 @@ class tweets(Document):
 class networking(Document):
 	
 	userA = IntField()
-    friendsof_A = ListField()
+    	friendsof_A = ListField()
     
 
 class users(Document):
 	
 	userid = IntField()
-    username = StringField()
-    friendcount = IntField()
+    	username = StringField()
+    	friendcount = IntField()
 	followercount = IntField()
 	statuscount = IntField()
 	Favoritecount = IntField()

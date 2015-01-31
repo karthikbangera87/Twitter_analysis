@@ -24,8 +24,8 @@ for root,dirs,files in os.walk('/Volumes/MAC1/tweets',topdown=False):
 				if count == 11:
 			
                         		obj = tweets(
-								UserID = name,
-								Type=data[0],
+					UserID = name,
+					Type=data[0],
                         		origin=data[1],
                         		text=data[2],
                         		URL=data[3],

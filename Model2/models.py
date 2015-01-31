@@ -27,12 +27,12 @@ class users_new(Document):
         Favoritecount = IntField()
         account_age = StringField()
         location = StringField()
-		tweets = ListField(EmbeddedDocumentField(tweets_new))
+	tweets = ListField(EmbeddedDocumentField(tweets_new))
 
 class networking(Document):
 	
 	
-		userA = IntField()
+	userA = IntField()
     	friendsof_A = ListField()
 	
 	
